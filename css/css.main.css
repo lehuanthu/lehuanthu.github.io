@@ -1,0 +1,373 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.navbar{
+	width: 100%;
+	background-color: rgba(26,26,26,0.58);
+	font-family: font1;
+	font-size: 15pt;
+}
+
+@font-face {
+  font-family: font1;
+  src: url("../font/PinkChicken-Regular.ttf");
+}
+
+@font-face {
+  font-family: font2;
+  src: url("../font/UVF DK Crayon Crumble.ttf");
+}
+
+.banner1{
+	
+	height: 100vh;
+	background-image: url("../images/banner5.jpg");
+	background-position: center;
+	background-size: cover;
+}
+
+.bannertext{
+	font-family: font1;
+	height: 100px;
+	width: 100%;
+	
+}
+
+.scroll2{
+	font-family: font1;
+	font-size: 26px;
+	text-align: center;
+	line-height: 10px;
+	height: 150px;
+}
+
+.scroll1{
+	font-family: font1;
+	height: 300px;
+	text-align: center;
+	font-size: 45px;
+	line-height: 30px;
+	padding-top: 50px;
+	
+}
+
+.welcome1{
+	background-image: url("../images/intro3.jpg");
+	background-position: center;
+	height: 400px;
+}
+
+.welcome2{
+	height: 400px;
+	padding-top: 130px;
+	font-family: font1;
+	background-color: #FFC107;
+	text-align: justify;
+
+}
+
+.skillcover{
+	height: 500px;
+	padding-top: 50px;
+}
+
+.skillpack{
+	height: 400px;
+}
+
+.skillimg1{
+	height: 300px;
+	background-image: url("../images/skill1.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.skillimg2{
+	height: 300px;
+	background-image: url("../images/skill2.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.skillimg3{
+	height: 300px;
+	background-image: url("../images/skill3.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.skillimg4{
+	height: 300px;
+	background-image: url("../images/skill4.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.skilltext{
+	height:100px;
+	font-family: font1;
+	padding-top: 10px;
+}
+
+.skilltext a{
+	color: #FFC107;
+}
+
+.skilltext a:hover{
+	text-decoration: none;
+}
+
+.skilltext a h4:hover{
+	text-decoration: overline;
+	color: #232323;
+	
+}
+
+.formcover{
+	height: 200px;
+	background-image: url("../images/footer.jpg");
+	background-size: cover;
+	
+}
+	
+.formpack{
+	height: 100px;	
+	margin: 10px 30px;
+	
+}
+
+.forminfo{
+	width: 100%;
+	height: 50px;
+	border: none;
+	padding: 10px;
+	background-color: rgba(255,193,7,0.6);
+	font-family: font1;
+}
+	
+	
+.icon1{
+	height: 50px;
+	background-color: #232323;
+	font-size: 18px;
+	text-align: center;
+	padding: 10px;
+}
+
+.icon1 a{
+	color: #FFC107;
+	
+}
+
+.icon1 a:hover{
+	color: white;
+}
+
+.hieuung{
+	animation: hieuunghi 1s both;
+}
+
+.storicover{
+	height: 800px;
+}
+
+.storipack{
+	height: 400px;
+}
+
+.storipack a img:hover{
+	transform: scale(1.3)
+}
+
+/*Part tê não*/
+@media only screen and (max-width: 768px) 	
+{
+	.skillcover{
+		height: 900px;
+	}
+	
+	.scroll1{
+	font-size: 20pt;
+	height: 500px;	
+	}
+	
+	.welcome2{
+	text-align: justify;
+	padding: 100px 0px;
+	
+	}
+}
+
+
+	
+@media only screen and (max-width: 434px) 
+{	
+	.bannertext{
+		font-size: 18pt;
+	}
+	
+	.storicover{
+		height: 2300px;
+	}
+	
+	.scroll2{
+		height: 200px;
+		padding-top: 100px;
+		font-size: 20pt;
+	}
+	.scroll1{
+	font-size: 17pt;
+	height: 200px;	
+	line-height: 15px;
+	padding-top: 50px;
+}
+	
+	.formcover{
+	height: 300px;
+	}
+	
+	.welcome{
+	height: 700px;
+	}
+	.welcome1{
+	height: 350px;
+	background-image: url("../images/intro4.jpg");
+	background-position: center;
+	background-size: auto;
+		
+	}
+	
+	.welcome2{
+	height: 280px;
+	font-family: font1;
+	text-align: justify;
+	padding: 20px 10px;
+	
+	}
+	
+	.skillcover{
+		height: 1200px;
+	}
+	
+	.skillimg1{
+		background-image: url("../images/skill15.jpg");
+		height: 200px;
+	}
+	
+	.skillimg2{
+		background-image: url("../images/skill25.jpg");
+		height: 200px;
+	}
+	
+	.skillimg3{
+		background-image: url("../images/skill35.jpg");
+		height: 200px;
+	}
+	
+	.skillimg4{
+		background-image: url("../images/skill45.jpg");
+		height: 200px;
+	}
+	
+	.skilltext{
+		height: 40px;
+	}
+	
+	.skillpack{
+		height: 200px;
+		margin-bottom: 100px;
+	}
+	
+}
+	
+	
+@-webkit-keyframes hieuunghi {
+  0% {
+    letter-spacing: 1em;
+    -webkit-transform: translateZ(400px) translateY(300px);
+            transform: translateZ(400px) translateY(300px);
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    -webkit-transform: translateZ(0) translateY(0);
+            transform: translateZ(0) translateY(0);
+    opacity: 1;
+  }
+}
+@keyframes hieuunghi {
+  0% {
+    letter-spacing: 1em;
+    -webkit-transform: translateZ(400px) translateY(300px);
+            transform: translateZ(400px) translateY(300px);
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    -webkit-transform: translateZ(0) translateY(0);
+            transform: translateZ(0) translateY(0);
+    opacity: 1;
+  }
+}
+
+	
+@-webkit-keyframes textsayhi {
+  0% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    -webkit-transform-origin: 50% 50%;
+            transform-origin: 50% 50%;
+    text-shadow: none;
+  }
+  100% {
+    -webkit-transform: translateY(-50px);
+            transform: translateY(-50px);
+    -webkit-transform-origin: 50% 50%;
+            transform-origin: 50% 50%;
+    text-shadow: 0 1px 0 #cccccc, 0 2px 0 #cccccc, 0 3px 0 #cccccc, 0 4px 0 #cccccc, 0 5px 0 #cccccc, 0 6px 0 #cccccc, 0 7px 0 #cccccc, 0 8px 0 #cccccc, 0 9px 0 #cccccc, 0 50px 30px rgba(0, 0, 0, 0.3);
+  }
+}
+@keyframes textsayhi {
+  0% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    -webkit-transform-origin: 50% 50%;
+            transform-origin: 50% 50%;
+    text-shadow: none;
+  }
+  100% {
+    -webkit-transform: translateY(-50px);
+            transform: translateY(-50px);
+    -webkit-transform-origin: 50% 50%;
+            transform-origin: 50% 50%;
+    text-shadow: 0 1px 0 #cccccc, 0 2px 0 #cccccc, 0 3px 0 #cccccc, 0 4px 0 #cccccc, 0 5px 0 #cccccc, 0 6px 0 #cccccc, 0 7px 0 #cccccc, 0 8px 0 #cccccc, 0 9px 0 #cccccc, 0 50px 30px rgba(0, 0, 0, 0.3);
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
